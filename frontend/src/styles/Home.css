@@ -1,0 +1,81 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.home__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.create__room__container {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.form-group input {
+    /* width: 90%; */
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.developer__contact {
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.room__list__container {
+    width: 30%;
+}
+
+.RoomList {
+    /* width: 100%; */
+    /* Adjust width as needed */
+    /* Optional:
+    Set padding or margin as needed */
+}
+
+.room-list {
+    /* max-height: 600px; */
+    /* Adjust height to fit your design */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    border: 1px solid #ccc;
+    /* Optional: Add border to see the scrollable area */
+    padding: 10px;
+    /* Optional: Add padding for better visual spacing */
+    border-radius: 4px;
+    /* Optional: Add rounded corners */
+    background-color: #f9f9f9;
+    /* Optional: Set a background color */
+}
+
+.room-item {
+    margin-bottom: 10px;
+    /* Spacing between items */
+    padding: 10px;
+    /* Padding inside each item */
+    border: 1px solid #ddd;
+    /* Border around each item */
+    border-radius: 4px;
+    /* Rounded corners for each item */
+    background-color: #fff;
+    /* Background color for each item */
+}
